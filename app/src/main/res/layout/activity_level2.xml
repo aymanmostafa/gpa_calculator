@@ -1,0 +1,299 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ayman.huci.Level2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 1"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Probability"
+                    android:id="@+id/textView2"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView3" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Probabilityid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Signal Theory"
+                    android:id="@+id/textView4"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView5" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Signalid" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Data structure"
+                    android:id="@+id/textView6"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView7" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Datastructurid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Complex"
+                    android:id="@+id/textView8"
+                    android:layout_weight="0.60" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.23"
+                    android:id="@+id/textView9" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Complexid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Computer architecture"
+                    android:id="@+id/textView10"
+                    android:layout_weight="0.30" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_weight="0.41"
+                    android:text="4 h"
+                    android:id="@+id/textView11" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Computerarchitectureid" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 2"
+                android:id="@+id/textdddsView14"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Discrete"
+                    android:id="@+id/textVsdsdsiew14"
+                    android:layout_weight="0.63" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.20"
+                    android:id="@+id/texsasatView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Discreteid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Microprocessor"
+                    android:id="@+id/texsstView14"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textawqView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Microprocessorid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Communication technologies"
+                    android:id="@+id/textViewxx14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.49"
+                    android:id="@+id/textViessaqw15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Communicationtechnologiesid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Measurament"
+                    android:id="@+id/tqqsextView14"
+                    android:layout_weight="0.63" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.17"
+                    android:id="@+id/tetrtxtView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Measuramentid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Technical writing"
+                    android:id="@+id/textView14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="2 h"
+                    android:layout_weight="0.19"
+                    android:id="@+id/textView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Technicalwritingid" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

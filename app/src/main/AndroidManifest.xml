@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayman.huci" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/huciicons"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".level0Activity"
+            android:label="@string/title_activity_level0"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Level1Activity"
+            android:label="@string/title_activity_level1"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Level2Activity"
+            android:label="@string/title_activity_level2"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Level3Activity"
+            android:label="@string/title_activity_level3"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Level4Activity"
+            android:label="@string/title_activity_level4"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CalActivity"
+            android:label="@string/title_activity_cal"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

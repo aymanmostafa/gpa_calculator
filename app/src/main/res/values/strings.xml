@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HUCI App</string>
+
+    <string name="hello_world"></string>
+    <string name="action_settings"></string>
+    <string name="title_activity_level0">Level 0</string>
+    <string name="title_activity_level1">Level 1</string>
+    <string name="title_activity_level2">Level 2</string>
+    <string name="title_activity_level3">Level 3</string>
+    <string name="title_activity_level4">Level 4</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_cal">Results</string>
+</resources>

@@ -1,0 +1,327 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ayman.huci.Level1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 1"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Math 2"
+                    android:id="@+id/textView2"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView3" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/math2id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Physics 2"
+                    android:id="@+id/textView4"
+                    android:layout_weight="0.53" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView5" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/physics2id" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Analogue 1"
+                    android:id="@+id/textView6"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView7" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/analogue1id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Circuit"
+                    android:id="@+id/textView8"
+                    android:layout_weight="0.57" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.23"
+                    android:id="@+id/textView9" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/circuitid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Human Right"
+                    android:id="@+id/textView10"
+                    android:layout_weight="0.48" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="2 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView11" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/humanid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Environmental"
+                    android:id="@+id/textView16"
+                    android:layout_weight="0.44" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="2 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView17" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/environmid" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 2"
+                android:id="@+id/texsssssssssstView14"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Digital electronics"
+                    android:id="@+id/texsssssssssssstViesw14"
+                    android:layout_weight="0.36" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/teaaaaaaaaaaaxtVaaiew1a5" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/digitaleleid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Field"
+                    android:id="@+id/textViessaw14"
+                    android:layout_weight="0.63" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.14"
+                    android:id="@+id/teasasxtView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/filedid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Mechanics"
+                    android:id="@+id/texsasatView14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.19"
+                    android:id="@+id/textViesasw15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/mechanicsid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Programming Techniques"
+                    android:id="@+id/teaqwxtView14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.45"
+                    android:id="@+id/tesxtssView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/protechid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Analogue 2"
+                    android:id="@+id/textView14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.17"
+                    android:id="@+id/textView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/analogue2id" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

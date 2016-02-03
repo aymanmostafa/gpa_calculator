@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ayman.huci.Level4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 1"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Bussiness law"
+                    android:id="@+id/textView2"
+                    android:layout_weight=".5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="2 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView3" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveI2id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="DSP"
+                    android:id="@+id/textView4"
+                    android:layout_weight="0.62" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.22"
+                    android:id="@+id/textView5" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/DSPid" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-1"
+                    android:id="@+id/textView6"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView7" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII1id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Information"
+                    android:id="@+id/textView8"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="4 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView9" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/Informationid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-2"
+                    android:id="@+id/textView10"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView11" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII2id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="GP 1"
+                    android:id="@+id/textView18"
+                    android:layout_weight="0.65" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="2 h"
+                    android:layout_weight="0.22"
+                    android:id="@+id/textView19" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/GP1id" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Semester 2"
+                android:id="@+id/textqqqqqqqqqqqView14"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-3"
+                    android:id="@+id/textViewqwqwqw14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textVsasasiew15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII3id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-4"
+                    android:id="@+id/textVbcniew14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/tererextView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII4id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-5"
+                    android:id="@+id/textVptotiew14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/texqwnntView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII5id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-6"
+                    android:id="@+id/toooooooextView14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textVieoooooooow15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII6id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="Elective II-7"
+                    android:id="@+id/textView14"
+                    android:layout_weight="0.55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:text="3 h"
+                    android:layout_weight="0.27"
+                    android:id="@+id/textView15" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/ElectiveII7id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:text="GP 2"
+                    android:id="@+id/textView20"
+                    android:layout_weight="0.65" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_weight="0.22"
+                    android:text="2 h"
+                    android:id="@+id/textView21" />
+
+                <Spinner
+                    android:layout_width="70dp"
+                    android:layout_height="49dp"
+                    android:id="@+id/gp2id" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
