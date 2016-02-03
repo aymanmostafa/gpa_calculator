@@ -47,7 +47,7 @@
                     android:id="@+id/textView3" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveI2id" />
             </LinearLayout>
@@ -73,7 +73,7 @@
                     android:id="@+id/textView5" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/DSPid" />
 
@@ -100,7 +100,7 @@
                     android:id="@+id/textView7" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII1id" />
             </LinearLayout>
@@ -126,7 +126,7 @@
                     android:id="@+id/textView9" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/Informationid" />
             </LinearLayout>
@@ -152,7 +152,7 @@
                     android:id="@+id/textView11" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII2id" />
             </LinearLayout>
@@ -178,7 +178,7 @@
                     android:id="@+id/textView19" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/GP1id" />
             </LinearLayout>
@@ -213,7 +213,7 @@
                     android:id="@+id/textVsasasiew15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII3id" />
             </LinearLayout>
@@ -239,7 +239,7 @@
                     android:id="@+id/tererextView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII4id" />
             </LinearLayout>
@@ -265,7 +265,7 @@
                     android:id="@+id/texqwnntView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII5id" />
             </LinearLayout>
@@ -291,7 +291,7 @@
                     android:id="@+id/textVieoooooooow15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII6id" />
             </LinearLayout>
@@ -317,7 +317,7 @@
                     android:id="@+id/textView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/ElectiveII7id" />
             </LinearLayout>
@@ -343,7 +343,7 @@
                     android:id="@+id/textView21" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/gp2id" />
             </LinearLayout>

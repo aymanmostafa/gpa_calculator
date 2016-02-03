@@ -46,7 +46,7 @@
                     android:layout_weight="0.27" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/math1id" />
             </LinearLayout>
@@ -72,7 +72,7 @@
                     android:layout_weight="0.43" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/introid" />
 
@@ -99,7 +99,7 @@
                     android:layout_weight="0.22" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/englishid" />
             </LinearLayout>
@@ -125,7 +125,7 @@
                     android:layout_weight="0.25" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/chemistryid" />
             </LinearLayout>
@@ -151,7 +151,7 @@
                     android:layout_weight="0.22" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/drawingid" />
             </LinearLayout>
@@ -186,7 +186,7 @@
                     android:layout_weight="0.28" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/linearid" />
             </LinearLayout>
@@ -212,7 +212,7 @@
                     android:layout_weight="0.29" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/physics1id" />
             </LinearLayout>
@@ -238,7 +238,7 @@
                     android:layout_weight="0.28" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/economicsid"
                     android:layout_weight="0.03" />
@@ -265,7 +265,7 @@
                     android:layout_weight="0.31" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/humanitiesid" />
             </LinearLayout>
@@ -291,7 +291,7 @@
                     android:layout_weight="0.25" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/italianid" />
             </LinearLayout>
@@ -317,7 +317,7 @@
                     android:layout_weight="0.28"/>
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/productionid" />
             </LinearLayout>

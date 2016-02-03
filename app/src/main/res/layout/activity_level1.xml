@@ -47,7 +47,7 @@
                     android:id="@+id/textView3" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/math2id" />
             </LinearLayout>
@@ -73,7 +73,7 @@
                     android:id="@+id/textView5" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/physics2id" />
 
@@ -100,7 +100,7 @@
                     android:id="@+id/textView7" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/analogue1id" />
             </LinearLayout>
@@ -126,7 +126,7 @@
                     android:id="@+id/textView9" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/circuitid" />
             </LinearLayout>
@@ -152,7 +152,7 @@
                     android:id="@+id/textView11" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/humanid" />
             </LinearLayout>
@@ -178,7 +178,7 @@
                     android:id="@+id/textView17" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/environmid" />
             </LinearLayout>
@@ -213,7 +213,7 @@
                     android:id="@+id/teaaaaaaaaaaaxtVaaiew1a5" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/digitaleleid" />
             </LinearLayout>
@@ -239,7 +239,7 @@
                     android:id="@+id/teasasxtView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/filedid" />
             </LinearLayout>
@@ -265,7 +265,7 @@
                     android:id="@+id/textViesasw15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/mechanicsid" />
             </LinearLayout>
@@ -290,7 +290,7 @@
                     android:id="@+id/tesxtssView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/protechid" />
             </LinearLayout>
@@ -316,7 +316,7 @@
                     android:id="@+id/textView15" />
 
                 <Spinner
-                    android:layout_width="70dp"
+                    android:layout_width="90dp"
                     android:layout_height="49dp"
                     android:id="@+id/analogue2id" />
             </LinearLayout>
